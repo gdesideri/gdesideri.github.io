@@ -1,189 +1,150 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Gloria Desideri
+  label: PhD Student in Continual Reinforcement Learning
+  email: gloria.desideri@utn.de
+  location: Nuremberg, Germany
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Doctoral student in the ELLIS Doctoral Program working on continual reinforcement
+    learning, with a background in AI, online learning, and software engineering.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: gloriadesideri
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: gloria-desideri
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: ELLIS Doctoral Program
+        location: Nuremberg, Germany
+        url: https://ellis.eu/
+        area: Continual Learning
+        studyType: Doctoral Student
+        start_date: 2025-09
+        end_date: Present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Working on Continual Learning under Claire Vernade and Marlos C. Machado.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Politecnico di Milano
+        location: Milan, Italy
+        url: https://www.polimi.it/
+        area: Computer Engineering - Artificial Intelligence
+        studyType: Master of Science
+        start_date: 2022-09
+        end_date: 2025-04
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Associations: Polimi Data Scientists (Project Team Leader & Reading Group manager), Blackswan Quants Polimi."
+          - "Exchange: ESIEE Paris (France), Erasmus+ program."
+          - "PhD level courses: Reinforcement Learning."
+          - "Thesis: A Reinforcement Learning Approach for Health-Behavioural Recommendations to Reduce Cancer Risk. Supervised by Prof. Francesco Trovò and Prof. Alberto Maria Metelli."
+
+      - institution: Politecnico di Milano
+        location: Milan, Italy
+        url: https://www.polimi.it/
+        area: Computer Engineering
+        studyType: Bachelor of Science
+        start_date: 2019-09
+        end_date: 2022-09
+        highlights:
+          - Member of the student representatives for the course of computer engineering.
+          - "Exchange: VIA University College (Denmark), Erasmus+ program."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: ML Cube
+        position: Machine Learning Intern
+        location: Milan, Italy
+        start_date: 2024-10
+        end_date: 2025-07
         highlights:
-          - Relativity
-          - Description 2.
+          - Optimization of Multi Head Weighting machines using Reinforcement Learning.
+          - Engineered features from multi-sensor time-series data for process phase classification.
+          - Applied PCA, DTW, and statistical tests to identify critical sensors and patterns.
+          - Built pipelines for time-series decomposition, FFT, and feature extraction in Python.
+          - Contributed to the design of a Reinforcement Learning-based dynamic pricing and advertising algorithm for hotel rooms.
+          - Constructed full RL pipeline for hyperparameter selection and model evaluation using Optuna and MLFlow.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: University of Science and Technology of China
+        position: Summer Researcher
+        location: Hefei, China
+        start_date: 2024-07
+        end_date: 2024-07
         highlights:
-          - Description 1.
-          - Description 2.
+          - Extracted camera locations and 3D mesh from 360 head scan videos using COLMAP and FaceVerse.
+          - Implemented k radial diffusion algorithm to enhance mesh points with color information from COLMAP.
+          - Successfully applied 2DGS to the enhanced mesh points using PyTorch obtaining high-quality renders.
+          - Findings presented in a poster showcase.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Digitiamo
+        position: Software Engineer (Backend) - Part Time
+        location: Milan, Italy
+        start_date: 2021-04
+        end_date: 2023-07
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Implemented and maintained over 50 API routes across 20+ resources.
+          - Developed over 300 automated tests using Mocha, Chai and Sinon, increasing test coverage to over 90%.
+          - Refactored the relational database, reducing query times from minutes to seconds.
+          - Contributed to the introduction of Kafka, which completely eliminated TimeOutErrors between microservices.
+          - Collaborated in building AWS infrastructure using Terraform and Kubernetes accelerating product shipment.
+          - Contributed to the introduction of CI/CD pipelines, reducing the deployment process from 6 hours to just 1 hour.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "``Can you be my mum?'' Manipulating Social Robots in the Large Language Models Era"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Giulio Antonio Abbo
+          - Gloria Desideri
+          - Tony Belpaeme
+          - Micol Spitale
+        publisher: HRI 2025
+        releaseDate: 2025
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: A Reinforcement Learning Approach for Health-Behavioural Recommendations to Reduce Cancer Risk
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Gloria Desideri
+          - Andrés Pasinetti
+          - Alberto Maria Metelli
+          - Francesco Trovò
+        publisher: ARLET@NeurIPS 2025 Workshop and WiML@NeurIPS 2025 Workshop
+        releaseDate: 2025
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Awards:
+      - title: 2nd place - Google Developer Student's Club AI Hack 2024
+        date: 2024
+        summary: >
+          Among the top 5 teams of the fintech track over 150 selected students. Built an
+          application for financial education powered with LLMs, presenting a working demo that
+          could interpret the user's personal finance situation and give improvement suggestions
+          as well as learning resources.
+
+      - title: First place - Assosoftware Hackathon
+        date: 2024
+        summary: >
+          Built an explainable stock picker algorithm to help with the selection of stocks for
+          client portfolios. Project featured in the final Assosoftware conference in Rome.
+
+      - title: Mentee - Lead The Future
+        summary: >
+          Among the few Italian students selected as mentees for LeadTheFuture, a leading STEM
+          mentorship non-profit with an acceptance rate below 20%, offering one-on-one guidance
+          from high-impact mentors at the world's leading innovation hubs such as Silicon Valley
+          and CERN.
+
+      - title: 2nd place - Google Developer Student's Club AI Hack 2025
+        date: 2025
+        summary: Built an application for personalised text re-elaboration based on online learning.
+
+      - title: PoliHUB Award Winner - University Startup Challenge 2025
+        date: 2025
+
+    Talks:
+      - title: Online and Reinforcement Learning for Marketing and Advertising
+        summary: With Alessandro Nuara. Polimi Data Scientists x ADCube 2025.
+        date: 2025
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
+      - name: Programming Languages
+        keywords: "C, C++, Python, R, Matlab, Java, SQL, Solidity"
       - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        keywords: "TensorFlow, PyTorch, Roboflow, MLFlow, Optuna, OpenCV"
+      - name: Software Engineering
+        keywords: "Docker, Kubernetes, Terraform, Kafka, Node.js, AWS, git"

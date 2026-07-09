@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-09-01 09:00:00+0200
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I started my PhD in the ELLIS Doctoral Program at the University of Technology Nuremberg, working on continual reinforcement learning. :rocket:
